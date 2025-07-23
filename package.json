@@ -1,0 +1,36 @@
+{
+    "name": "deploypress",
+    "version": "1.0.0",
+    "description": "A comprehensive WordPress deployment tool with backup, retry logic, and network resilience",
+    "main": "index.js",
+    "bin": {
+      "deploypress": "./index.js"
+    },
+    "scripts": {
+      "start": "node index.js",
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+      "wordpress",
+      "deployment",
+      "rsync",
+      "ssh",
+      "backup",
+      "database",
+      "mysql"
+    ],
+    "author": "Asghar Abbas <dev.asghar@gmail.com>",
+    "license": "MIT",
+    "engines": {
+      "node": ">=14.0.0"
+    },
+    "preferGlobal": true,
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/devasghar/deploypress.git"
+    },
+    "bugs": {
+      "url": "https://github.com/devasghar/deploypress/issues"
+    },
+    "homepage": "https://github.com/devasghar/deploypress#readme"
+  }
